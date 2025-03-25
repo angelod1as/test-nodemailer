@@ -20,8 +20,6 @@ export const sendNormalMail = async () => {
   console.log("start");
   console.log("is idle?", transporter.isIdle());
 
-  console.log("inside transporter.once");
-
   if (transporter.isIdle()) {
     console.log("sending email");
 
